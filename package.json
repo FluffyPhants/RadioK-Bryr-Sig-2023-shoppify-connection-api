@@ -1,0 +1,32 @@
+{
+  "type": "module",
+  "name": "radiok-api",
+  "version": "1.0.0",
+  "description": "A app that will provide a RESTfull api that scrapes musikhjalpens website for the current value of radioK's contribution to the charity event. It will also fetch sales data from a shopify store to combine with the charity data to provide a total of money gathered for the charity. In addition it will provide data for monetary triggers that will be fetched from csv.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "node -r dotenv/config index.js"
+  },
+  "keywords": [
+    "RESTapi",
+    "shopify",
+    "CSV",
+    "api",
+    "nodejs",
+    "charity",
+    "webscraper"
+  ],
+  "author": "sebastianzeed@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/local-auth": "^2.1.0",
+    "@shopify/shopify-api": "^8.0.2",
+    "axios": "^1.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "googleapis": "^105.0.0"
+  }
+}

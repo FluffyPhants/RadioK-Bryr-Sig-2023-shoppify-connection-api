@@ -1,0 +1,6 @@
+googleSheets/credentials.json
+googleSheets/token.json
+node_modules/
+.env
+.gcloudignore
+app.yaml
