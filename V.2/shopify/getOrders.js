@@ -34,7 +34,7 @@ function calculateValueOfOrders(orders) {
 //returns the ammount of money collected through shopify
 async function getAmountFromShopify() {
 
-    const fromDate = "2023-11-24T07:42:11"
+    const fromDate = "2024-11-13T07:42:11"
 
     const shopifyOrders = await shopifyGetAllOrdersFromDate(fromDate)
 

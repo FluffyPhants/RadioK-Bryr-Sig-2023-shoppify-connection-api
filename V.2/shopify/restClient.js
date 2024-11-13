@@ -4,7 +4,7 @@ import { restResources } from '@shopify/shopify-api/rest/admin/2023-10'
 
 import 'dotenv/config';
 import dotenv from 'dotenv';
-dotenv.config({ path: '../.env' });
+dotenv.config({ path: '../../.env' });
 
 const shopify = shopifyApi({
   apiKey: process.env.SHOPIFY_API_KEY,
