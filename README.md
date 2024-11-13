@@ -31,3 +31,8 @@ pm2 ls //list all running apps
   $ pm2 stop app
   $ pm2 start app
   $ pm2 restart app
+
+
+# refs
+https://medium.com/@s.mehrotrasahil/from-code-to-cloud-deploying-node-js-applications-on-google-cloud-compute-engine-bba17e80a826
+https://certbot.eff.org/instructions?ws=nginx&os=pip
