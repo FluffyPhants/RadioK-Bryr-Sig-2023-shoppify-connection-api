@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
+    "start": "node V.2/index.js",
     "start:dev": "node -r dotenv/config index.js"
   },
   "keywords": [
